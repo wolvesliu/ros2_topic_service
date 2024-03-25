@@ -1,0 +1,8 @@
+{
+  "package_name": "example_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/max/ros2fish/chapt3_interface/interface_ws/src/example_ros2_interfaces:msg/RobotPose.msg",
+    "/home/max/ros2fish/chapt3_interface/interface_ws/src/example_ros2_interfaces:msg/RobotStatus.msg",
+    "/home/max/ros2fish/chapt3_interface/interface_ws/src/example_ros2_interfaces:srv/MoveRobot.srv"
+  ]
+}

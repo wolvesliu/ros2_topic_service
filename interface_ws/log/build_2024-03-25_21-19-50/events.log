@@ -1,0 +1,496 @@
+[0.000000] (-) TimerEvent: {}
+[0.001093] (example_ros2_interfaces) JobQueued: {'identifier': 'example_ros2_interfaces', 'dependencies': OrderedDict()}
+[0.001169] (example_interfaces_rclcpp) JobQueued: {'identifier': 'example_interfaces_rclcpp', 'dependencies': OrderedDict([('example_ros2_interfaces', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces')])}
+[0.001461] (example_ros2_interfaces) JobStarted: {'identifier': 'example_ros2_interfaces'}
+[0.028675] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'cmake'}
+[0.032600] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'build'}
+[0.033207] (example_ros2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1162'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1162,unix/maxubuntu:/tmp/.ICE-unix/1162'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4c2810a_d562_4af4_ad0b_672dce54a1b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQHLL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1ec573d34.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098880] (-) TimerEvent: {}
+[0.199357] (-) TimerEvent: {}
+[0.300825] (-) TimerEvent: {}
+[0.331093] (example_ros2_interfaces) StdoutLine: {'line': b'[  2%] Built target example_ros2_interfaces__cpp\n'}
+[0.391691] (example_ros2_interfaces) StdoutLine: {'line': b'[ 12%] Built target example_ros2_interfaces__rosidl_generator_c\n'}
+[0.401078] (-) TimerEvent: {}
+[0.461753] (example_ros2_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_example_ros2_interfaces\n'}
+[0.467581] (example_ros2_interfaces) StdoutLine: {'line': b'[ 23%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.503618] (-) TimerEvent: {}
+[0.554459] (example_ros2_interfaces) StdoutLine: {'line': b'[ 34%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.596619] (example_ros2_interfaces) StdoutLine: {'line': b'[ 44%] Built target example_ros2_interfaces__rosidl_typesupport_c\n'}
+[0.606270] (-) TimerEvent: {}
+[0.668391] (example_ros2_interfaces) StdoutLine: {'line': b'[ 55%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.710402] (example_ros2_interfaces) StdoutLine: {'line': b'[ 65%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.710634] (-) TimerEvent: {}
+[0.791161] (example_ros2_interfaces) StdoutLine: {'line': b'[ 76%] Built target example_ros2_interfaces__rosidl_typesupport_cpp\n'}
+[0.811505] (-) TimerEvent: {}
+[0.910375] (example_ros2_interfaces) StdoutLine: {'line': b'[ 76%] Built target example_ros2_interfaces\n'}
+[0.914026] (-) TimerEvent: {}
+[1.016188] (-) TimerEvent: {}
+[1.048374] (example_ros2_interfaces) StdoutLine: {'line': b'[ 78%] Built target example_ros2_interfaces__py\n'}
+[1.119099] (-) TimerEvent: {}
+[1.162615] (example_ros2_interfaces) StdoutLine: {'line': b'[ 87%] Built target example_ros2_interfaces__rosidl_generator_py\n'}
+[1.221786] (-) TimerEvent: {}
+[1.253929] (example_ros2_interfaces) StdoutLine: {'line': b'[ 91%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.329566] (-) TimerEvent: {}
+[1.337465] (example_ros2_interfaces) StdoutLine: {'line': b'[ 95%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.349824] (example_ros2_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.351137] (example_ros2_interfaces) StdoutLine: {'line': b'writing example_ros2_interfaces.egg-info/PKG-INFO\n'}
+[1.351842] (example_ros2_interfaces) StdoutLine: {'line': b'writing dependency_links to example_ros2_interfaces.egg-info/dependency_links.txt\n'}
+[1.352498] (example_ros2_interfaces) StdoutLine: {'line': b'writing top-level names to example_ros2_interfaces.egg-info/top_level.txt\n'}
+[1.363854] (example_ros2_interfaces) StdoutLine: {'line': b"reading manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'\n"}
+[1.365614] (example_ros2_interfaces) StdoutLine: {'line': b"writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'\n"}
+[1.432244] (-) TimerEvent: {}
+[1.456342] (example_ros2_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_example_ros2_interfaces_egg\n'}
+[1.456578] (example_ros2_interfaces) StdoutLine: {'line': b'[100%] Built target example_ros2_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.492251] (example_ros2_interfaces) CommandEnded: {'returncode': 0}
+[1.533440] (-) TimerEvent: {}
+[1.638200] (-) TimerEvent: {}
+[1.706251] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'install'}
+[1.731906] (example_ros2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces'], 'cwd': '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1162'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1162,unix/maxubuntu:/tmp/.ICE-unix/1162'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4c2810a_d562_4af4_ad0b_672dce54a1b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQHLL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1ec573d34.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.743464] (-) TimerEvent: {}
+[1.760363] (example_ros2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.767141] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_ros2_interfaces\n'}
+[1.767514] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.767610] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.767696] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.h\n'}
+[1.767795] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.767884] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.h\n'}
+[1.767973] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.c\n'}
+[1.768080] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.h\n'}
+[1.768247] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.h\n'}
+[1.768389] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.768484] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.h\n'}
+[1.769584] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.769778] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.h\n'}
+[1.769860] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.769938] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.c\n'}
+[1.770013] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.h\n'}
+[1.770122] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.c\n'}
+[1.770195] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.h\n'}
+[1.770276] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.h\n'}
+[1.770357] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.h\n'}
+[1.770439] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.h\n'}
+[1.770705] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.h\n'}
+[1.771473] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.sh\n'}
+[1.773951] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.dsv\n'}
+[1.779847] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_c.so\n'}
+[1.780284] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.780405] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.780500] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.780588] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[1.780672] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.780729] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.780782] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.780860] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.781153] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.785296] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.788121] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.796063] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.796432] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.796673] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h\n'}
+[1.796885] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.c\n'}
+[1.797053] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.797311] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.797401] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.797610] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[1.797790] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.c\n'}
+[1.797992] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.798169] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.c\n'}
+[1.800301] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.802732] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_c.so\n'}
+[1.802929] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.802986] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.803043] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.hpp\n'}
+[1.803099] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.803152] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.hpp\n'}
+[1.803222] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__traits.hpp\n'}
+[1.803276] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__builder.hpp\n'}
+[1.803500] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.803712] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.hpp\n'}
+[1.803852] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.hpp\n'}
+[1.804116] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.804235] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__traits.hpp\n'}
+[1.804353] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.hpp\n'}
+[1.804445] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__builder.hpp\n'}
+[1.804574] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.hpp\n'}
+[1.804633] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__traits.hpp\n'}
+[1.804686] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__builder.hpp\n'}
+[1.805557] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.806283] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.808611] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.808701] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/dds_fastrtps\n'}
+[1.808758] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.808838] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.808898] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.808950] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.809007] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.809173] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/dds_fastrtps\n'}
+[1.809243] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.809297] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.809348] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.809401] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.809454] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.809588] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.809651] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.cpp\n'}
+[1.809706] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.809758] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.809836] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.cpp\n'}
+[1.809979] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.cpp\n'}
+[1.810037] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.810089] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.810729] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.811896] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.812660] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.sh\n'}
+[1.812809] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.dsv\n'}
+[1.812943] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.813073] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.813480] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.813645] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.813953] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.814417] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces\n'}
+[1.815402] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.815475] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv\n'}
+[1.815530] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot.py\n'}
+[1.815585] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot_s.c\n'}
+[1.815638] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/__init__.py\n'}
+[1.815690] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.819235] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.819491] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.819571] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.819633] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_generator_py.so\n'}
+[1.819686] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.819739] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg\n'}
+[1.819961] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose.py\n'}
+[1.820074] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose_s.c\n'}
+[1.820128] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status.py\n'}
+[1.820241] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status_s.c\n'}
+[1.820296] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/__init__.py\n'}
+[1.820348] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/__init__.py\n'}
+[1.845144] (-) TimerEvent: {}
+[1.909521] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces'...\n"}
+[1.910086] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg'...\n"}
+[1.910188] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv'...\n"}
+[1.920870] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.922959] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.923074] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.924866] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_py.so\n'}
+[1.925927] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.idl\n'}
+[1.926281] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.idl\n'}
+[1.926562] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.idl\n'}
+[1.926932] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.msg\n'}
+[1.927589] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.msg\n'}
+[1.927838] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.srv\n'}
+[1.928065] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Request.msg\n'}
+[1.928399] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Response.msg\n'}
+[1.928653] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/example_ros2_interfaces\n'}
+[1.928841] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/example_ros2_interfaces\n'}
+[1.928947] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.sh\n'}
+[1.929110] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.929240] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.sh\n'}
+[1.929421] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.dsv\n'}
+[1.929538] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.bash\n'}
+[1.929595] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.sh\n'}
+[1.929804] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.zsh\n'}
+[1.929901] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.dsv\n'}
+[1.929957] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv\n'}
+[1.931871] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/ament_index/resource_index/packages/example_ros2_interfaces\n'}
+[1.934029] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.934339] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.934982] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.935160] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.935867] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.936029] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.936740] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.936944] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.938225] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.938684] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.938783] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.940053] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.940789] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.943960] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.944433] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.945084] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.945196] (-) TimerEvent: {}
+[1.945378] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.945541] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.945695] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.945829] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.945959] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.946154] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.946260] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.946412] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.946575] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig.cmake\n'}
+[1.946705] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig-version.cmake\n'}
+[1.946945] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.xml\n'}
+[1.960214] (example_ros2_interfaces) CommandEnded: {'returncode': 0}
+[2.047255] (-) TimerEvent: {}
+[2.148241] (-) TimerEvent: {}
+[2.249605] (-) TimerEvent: {}
+[2.321074] (example_ros2_interfaces) JobEnded: {'identifier': 'example_ros2_interfaces', 'rc': 0}
+[2.321837] (example_interfaces_rclcpp) JobStarted: {'identifier': 'example_interfaces_rclcpp'}
+[2.342360] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'cmake'}
+[2.344594] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'build'}
+[2.344901] (example_interfaces_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1162'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1162,unix/maxubuntu:/tmp/.ICE-unix/1162'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4c2810a_d562_4af4_ad0b_672dce54a1b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQHLL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1ec573d34.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.350681] (-) TimerEvent: {}
+[2.451322] (-) TimerEvent: {}
+[2.522974] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_control_01_node\x1b[0m\n'}
+[2.534003] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_robot_01_node\x1b[0m\n'}
+[2.551564] (-) TimerEvent: {}
+[2.600816] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_robot_01_node.dir/src/example_interfaces_robot_01_node.cpp.o\x1b[0m\n'}
+[2.610764] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_control_01_node.dir/src/example_interfaces_control_01_node.cpp.o\x1b[0m\n'}
+[2.652644] (-) TimerEvent: {}
+[2.753565] (-) TimerEvent: {}
+[2.854949] (-) TimerEvent: {}
+[2.955839] (-) TimerEvent: {}
+[3.061034] (-) TimerEvent: {}
+[3.162172] (-) TimerEvent: {}
+[3.264934] (-) TimerEvent: {}
+[3.366103] (-) TimerEvent: {}
+[3.467058] (-) TimerEvent: {}
+[3.567856] (-) TimerEvent: {}
+[3.668371] (-) TimerEvent: {}
+[3.773185] (-) TimerEvent: {}
+[3.875251] (-) TimerEvent: {}
+[3.977325] (-) TimerEvent: {}
+[4.079315] (-) TimerEvent: {}
+[4.181330] (-) TimerEvent: {}
+[4.287067] (-) TimerEvent: {}
+[4.387717] (-) TimerEvent: {}
+[4.488442] (-) TimerEvent: {}
+[4.588903] (-) TimerEvent: {}
+[4.690715] (-) TimerEvent: {}
+[4.795266] (-) TimerEvent: {}
+[4.896721] (-) TimerEvent: {}
+[5.000502] (-) TimerEvent: {}
+[5.101794] (-) TimerEvent: {}
+[5.203743] (-) TimerEvent: {}
+[5.304180] (-) TimerEvent: {}
+[5.410961] (-) TimerEvent: {}
+[5.516073] (-) TimerEvent: {}
+[5.617495] (-) TimerEvent: {}
+[5.724695] (-) TimerEvent: {}
+[5.832193] (-) TimerEvent: {}
+[5.937468] (-) TimerEvent: {}
+[6.041045] (-) TimerEvent: {}
+[6.145097] (-) TimerEvent: {}
+[6.247112] (-) TimerEvent: {}
+[6.352206] (-) TimerEvent: {}
+[6.455771] (-) TimerEvent: {}
+[6.557644] (-) TimerEvent: {}
+[6.658423] (-) TimerEvent: {}
+[6.759539] (-) TimerEvent: {}
+[6.860252] (-) TimerEvent: {}
+[6.960772] (-) TimerEvent: {}
+[7.062050] (-) TimerEvent: {}
+[7.167507] (-) TimerEvent: {}
+[7.268735] (-) TimerEvent: {}
+[7.369557] (-) TimerEvent: {}
+[7.472115] (-) TimerEvent: {}
+[7.578366] (-) TimerEvent: {}
+[7.682183] (-) TimerEvent: {}
+[7.782626] (-) TimerEvent: {}
+[7.883697] (-) TimerEvent: {}
+[7.985197] (-) TimerEvent: {}
+[8.089277] (-) TimerEvent: {}
+[8.194900] (-) TimerEvent: {}
+[8.296637] (-) TimerEvent: {}
+[8.400951] (-) TimerEvent: {}
+[8.513198] (-) TimerEvent: {}
+[8.617664] (-) TimerEvent: {}
+[8.725091] (-) TimerEvent: {}
+[8.831197] (-) TimerEvent: {}
+[8.933392] (-) TimerEvent: {}
+[9.041413] (-) TimerEvent: {}
+[9.147797] (-) TimerEvent: {}
+[9.252285] (-) TimerEvent: {}
+[9.354451] (-) TimerEvent: {}
+[9.455915] (-) TimerEvent: {}
+[9.560584] (-) TimerEvent: {}
+[9.671160] (-) TimerEvent: {}
+[9.781424] (-) TimerEvent: {}
+[9.887656] (-) TimerEvent: {}
+[9.997529] (-) TimerEvent: {}
+[10.098887] (-) TimerEvent: {}
+[10.199454] (-) TimerEvent: {}
+[10.300913] (-) TimerEvent: {}
+[10.401506] (-) TimerEvent: {}
+[10.502305] (-) TimerEvent: {}
+[10.604778] (-) TimerEvent: {}
+[10.708705] (-) TimerEvent: {}
+[10.813747] (-) TimerEvent: {}
+[10.916211] (-) TimerEvent: {}
+[11.016915] (-) TimerEvent: {}
+[11.118372] (-) TimerEvent: {}
+[11.222476] (-) TimerEvent: {}
+[11.323680] (-) TimerEvent: {}
+[11.430697] (-) TimerEvent: {}
+[11.540465] (-) TimerEvent: {}
+[11.651938] (-) TimerEvent: {}
+[11.761613] (-) TimerEvent: {}
+[11.865715] (-) TimerEvent: {}
+[11.966878] (-) TimerEvent: {}
+[12.067758] (-) TimerEvent: {}
+[12.168725] (-) TimerEvent: {}
+[12.272005] (-) TimerEvent: {}
+[12.374819] (-) TimerEvent: {}
+[12.477896] (-) TimerEvent: {}
+[12.582545] (-) TimerEvent: {}
+[12.684176] (-) TimerEvent: {}
+[12.787918] (-) TimerEvent: {}
+[12.899099] (-) TimerEvent: {}
+[12.999936] (-) TimerEvent: {}
+[13.110164] (-) TimerEvent: {}
+[13.216585] (-) TimerEvent: {}
+[13.320260] (-) TimerEvent: {}
+[13.420816] (-) TimerEvent: {}
+[13.529412] (-) TimerEvent: {}
+[13.632864] (-) TimerEvent: {}
+[13.733377] (-) TimerEvent: {}
+[13.836509] (-) TimerEvent: {}
+[13.937173] (-) TimerEvent: {}
+[14.038387] (-) TimerEvent: {}
+[14.143976] (-) TimerEvent: {}
+[14.244628] (-) TimerEvent: {}
+[14.348969] (-) TimerEvent: {}
+[14.450534] (-) TimerEvent: {}
+[14.560479] (-) TimerEvent: {}
+[14.666567] (-) TimerEvent: {}
+[14.767638] (-) TimerEvent: {}
+[14.868785] (-) TimerEvent: {}
+[14.969643] (-) TimerEvent: {}
+[15.070295] (-) TimerEvent: {}
+[15.176256] (-) TimerEvent: {}
+[15.280781] (-) TimerEvent: {}
+[15.381304] (-) TimerEvent: {}
+[15.482325] (-) TimerEvent: {}
+[15.583558] (-) TimerEvent: {}
+[15.686223] (-) TimerEvent: {}
+[15.786965] (-) TimerEvent: {}
+[15.887831] (-) TimerEvent: {}
+[15.988285] (-) TimerEvent: {}
+[16.091986] (-) TimerEvent: {}
+[16.198940] (-) TimerEvent: {}
+[16.300223] (-) TimerEvent: {}
+[16.410150] (-) TimerEvent: {}
+[16.511007] (-) TimerEvent: {}
+[16.612281] (-) TimerEvent: {}
+[16.716208] (-) TimerEvent: {}
+[16.817578] (-) TimerEvent: {}
+[16.918399] (-) TimerEvent: {}
+[17.019552] (-) TimerEvent: {}
+[17.120827] (-) TimerEvent: {}
+[17.222156] (-) TimerEvent: {}
+[17.325028] (-) TimerEvent: {}
+[17.427433] (-) TimerEvent: {}
+[17.546946] (-) TimerEvent: {}
+[17.571038] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_robot_01_node\x1b[0m\n'}
+[17.658022] (-) TimerEvent: {}
+[17.758981] (-) TimerEvent: {}
+[17.860266] (-) TimerEvent: {}
+[17.966176] (-) TimerEvent: {}
+[18.071228] (-) TimerEvent: {}
+[18.173019] (-) TimerEvent: {}
+[18.281620] (-) TimerEvent: {}
+[18.384322] (-) TimerEvent: {}
+[18.497372] (-) TimerEvent: {}
+[18.597755] (-) TimerEvent: {}
+[18.698372] (-) TimerEvent: {}
+[18.799207] (-) TimerEvent: {}
+[18.847308] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 75%] Built target example_interfaces_robot_01_node\n'}
+[18.899928] (-) TimerEvent: {}
+[19.000597] (-) TimerEvent: {}
+[19.101117] (-) TimerEvent: {}
+[19.201649] (-) TimerEvent: {}
+[19.303196] (-) TimerEvent: {}
+[19.406217] (-) TimerEvent: {}
+[19.506693] (-) TimerEvent: {}
+[19.607285] (-) TimerEvent: {}
+[19.709761] (-) TimerEvent: {}
+[19.810336] (-) TimerEvent: {}
+[19.911235] (-) TimerEvent: {}
+[20.020176] (-) TimerEvent: {}
+[20.126508] (-) TimerEvent: {}
+[20.227606] (-) TimerEvent: {}
+[20.329680] (-) TimerEvent: {}
+[20.433258] (-) TimerEvent: {}
+[20.533933] (-) TimerEvent: {}
+[20.634613] (-) TimerEvent: {}
+[20.736151] (-) TimerEvent: {}
+[20.844408] (-) TimerEvent: {}
+[20.951026] (-) TimerEvent: {}
+[21.051482] (-) TimerEvent: {}
+[21.152164] (-) TimerEvent: {}
+[21.252601] (-) TimerEvent: {}
+[21.355812] (-) TimerEvent: {}
+[21.457653] (-) TimerEvent: {}
+[21.558143] (-) TimerEvent: {}
+[21.658586] (-) TimerEvent: {}
+[21.759448] (-) TimerEvent: {}
+[21.860538] (-) TimerEvent: {}
+[21.960948] (-) TimerEvent: {}
+[22.061529] (-) TimerEvent: {}
+[22.166224] (-) TimerEvent: {}
+[22.267270] (-) TimerEvent: {}
+[22.373144] (-) TimerEvent: {}
+[22.480729] (-) TimerEvent: {}
+[22.586326] (-) TimerEvent: {}
+[22.691244] (-) TimerEvent: {}
+[22.796391] (-) TimerEvent: {}
+[22.899165] (-) TimerEvent: {}
+[23.006004] (-) TimerEvent: {}
+[23.111018] (-) TimerEvent: {}
+[23.216090] (-) TimerEvent: {}
+[23.316576] (-) TimerEvent: {}
+[23.418431] (-) TimerEvent: {}
+[23.519077] (-) TimerEvent: {}
+[23.621371] (-) TimerEvent: {}
+[23.722077] (-) TimerEvent: {}
+[23.826148] (-) TimerEvent: {}
+[23.930414] (-) TimerEvent: {}
+[24.033757] (-) TimerEvent: {}
+[24.144195] (-) TimerEvent: {}
+[24.249292] (-) TimerEvent: {}
+[24.349898] (-) TimerEvent: {}
+[24.461353] (-) TimerEvent: {}
+[24.561760] (-) TimerEvent: {}
+[24.664488] (-) TimerEvent: {}
+[24.776113] (-) TimerEvent: {}
+[24.881714] (-) TimerEvent: {}
+[24.920116] (example_interfaces_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_control_01_node\x1b[0m\n'}
+[24.982162] (-) TimerEvent: {}
+[25.082656] (-) TimerEvent: {}
+[25.183176] (-) TimerEvent: {}
+[25.284448] (-) TimerEvent: {}
+[25.388153] (-) TimerEvent: {}
+[25.496385] (-) TimerEvent: {}
+[25.601510] (-) TimerEvent: {}
+[25.704653] (-) TimerEvent: {}
+[25.778014] (example_interfaces_rclcpp) StdoutLine: {'line': b'[100%] Built target example_interfaces_control_01_node\n'}
+[25.806687] (-) TimerEvent: {}
+[25.811706] (example_interfaces_rclcpp) CommandEnded: {'returncode': 0}
+[25.889249] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'install'}
+[25.889399] (example_interfaces_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp'], 'cwd': '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'max'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1162'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'max'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxubuntu:@/tmp/.ICE-unix/1162,unix/maxubuntu:/tmp/.ICE-unix/1162'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4c2810a_d562_4af4_ad0b_672dce54a1b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TQHLL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1ec573d34.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/max/ros2fish/chapt3_interface/interface_ws/build/example_interfaces_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a40477c950fc4e17ed5e3e566601744a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/max/ros2fish/chapt3_interface/interface_ws/install/example_ros2_interfaces:/opt/ros/humble')]), 'shell': False}
+[25.907794] (-) TimerEvent: {}
+[25.926321] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.926684] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_interfaces_rclcpp\n'}
+[25.926789] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_interfaces_rclcpp\n'}
+[25.928039] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.sh\n'}
+[25.928411] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.dsv\n'}
+[25.928552] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.sh\n'}
+[25.928747] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.dsv\n'}
+[25.928907] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.bash\n'}
+[25.929014] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.sh\n'}
+[25.929205] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.zsh\n'}
+[25.929316] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.dsv\n'}
+[25.929396] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv\n'}
+[25.930166] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/packages/example_interfaces_rclcpp\n'}
+[25.930467] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig.cmake\n'}
+[25.930573] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig-version.cmake\n'}
+[25.930654] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.xml\n'}
+[25.933023] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01_node\n'}
+[25.944431] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01_node" to ""\n'}
+[25.950172] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01_node\n'}
+[25.954285] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/max/ros2fish/chapt3_interface/interface_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01_node" to ""\n'}
+[25.961726] (example_interfaces_rclcpp) CommandEnded: {'returncode': 0}
+[26.008827] (-) TimerEvent: {}
+[26.085119] (example_interfaces_rclcpp) JobEnded: {'identifier': 'example_interfaces_rclcpp', 'rc': 0}
+[26.093045] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotPose.idl
+/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotStatus.idl
+/home/max/ros2fish/chapt3_interface/interface_ws/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:srv/MoveRobot.idl
